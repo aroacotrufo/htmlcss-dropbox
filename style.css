@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Open Sans;
+    
 }
 header{
-    background-color: antiquewhite;
+
     padding: 10px 0;
 }
 
@@ -35,10 +37,49 @@ a {
 .button{
     background-color: blue;
     color:white;
-    padding: 7px;
+    padding: 7px 0;
     border-radius: 10%;
     
 }
 ul{
     list-style-type: none;
+}
+main{
+
+}
+.primo-section{
+
+    background-color: #87B5C9;
+    padding: 5% 20%;
+   
+   
+}
+.menu-section{
+    display:flex;
+}
+.menu-left-section1{
+    display:flex;
+    flex-wrap:wrap;
+    font-size: 7px;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+}
+.menu-section-right{
+    display:flex;
+}
+.jumbo{
+    width: 350px;
+    height: auto;
+    
+}
+.titolo{
+    font-size: 100px;
+}
+.button-prova{
+    margin-bottom:20px;
+    background-color: rgb(20, 106, 219);
+    color:white;
+    padding: 7px ;
+    border-radius: 10%;
 }
