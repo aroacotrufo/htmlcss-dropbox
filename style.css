@@ -1,5 +1,44 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing; border-box;
+    box-sizing: border-box;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 70px;
+
+}
+.text-grey{
+    color: gray;
+    margin:20px;
+}
+.nav-container{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+a {
+    text-decoration: none;
+}
+.menu-left{
+    display:flex;
+
+}
+.menu-right{
+    display:flex;
+   
+    
+}
+.button{
+    background-color: blue;
+    color:white;
+    padding: 7px;
+    border-radius: 10%;
+    
 }
