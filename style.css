@@ -49,6 +49,7 @@ a {
 
 ul {
     list-style-type: none;
+  
 }
 
 .primo-section {
@@ -82,15 +83,15 @@ ul {
 .button {
     background-color: blue;
     color: white;
-    padding-inline: 30px;
-    border-radius: 10%;
+    padding-inline: 10px;
+   
     font-size: 10px;
 
 }
 
 .container {
-    width: 850px;
-    margin: 0 auto;
+    width: 650px;
+    margin: 50px auto;
 }
 
 .button-fatturazione {
@@ -126,19 +127,12 @@ ul {
 .text-line{
     line-height: 30px;
     font-size: 10px;
+    margin: 10px;
 
 }
 
-.button-prova {
-    margin: 10px 0;
-    display: inline-block;
-    background-color: blue;
-    color: white;
-    padding-inline: 30px;
-    border-radius: 10%;
-    font-size: 10px;
-    padding: 7px 0;
-}
+
+
 .button-trasparente{
     border: 1px solid;
     padding:10px;
@@ -158,10 +152,10 @@ width: 90%;
 
 }
 h3{
-    margin: 30px 0;
+    margin: 10px 0;
 }
 p{
-    margin-top: 30px 0;
+    margin: 30px 0;
 }
 .card-small{
     width: 30%;
@@ -172,4 +166,25 @@ p{
 }
 h2{
     margin:50px 0;
+}
+.footer{
+    background-color: black;
+    display:flex;
+    color:white;
+    justify-content: center;
+   
+
+}
+li{
+   font-size: 10px;
+}
+.container-footer{
+       width: 800px;
+    margin: 50px;
+      background-color: black;
+    display:flex;
+    color:white;
+    justify-content: space-around;
+
+
 }
