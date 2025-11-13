@@ -138,14 +138,18 @@ ul {
 }
 
 
-.border{
+.border1{
     line-height: 30px;
     font-size: 10px;
-    border: 1px solid grey;
-}
-.border-bottom{
-    border-bottom: 10px solid
-}
-.card4{
+    
   
 }
+
+
+.border2{
+   line-height: 30px;
+    font-size: 10px;
+    border-left: 1px solid grey;
+}
+
+
