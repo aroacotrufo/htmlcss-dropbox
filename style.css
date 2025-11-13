@@ -44,9 +44,7 @@ a {
 ul{
     list-style-type: none;
 }
-main{
 
-}
 .primo-section{
 
     background-color: #87B5C9;
@@ -56,6 +54,7 @@ main{
 }
 .menu-section{
     display:flex;
+    
 }
 .menu-left-section1{
     display:flex;
@@ -64,7 +63,7 @@ main{
     margin-right: 150px;
     margin-top: 20px;
 }
-}
+
 .menu-section-right{
     display:flex;
 }
@@ -77,9 +76,46 @@ main{
     font-size: 100px;
 }
 .button-prova{
-    margin-bottom:20px;
-    background-color: rgb(20, 106, 219);
-    color:white;
-    padding: 7px ;
+    background-color: blue;
+     color:white;
+    padding-inline: 30px;
     border-radius: 10%;
+    margin-right: 200px;
+
 }
+.secondo-section{
+    margin: 5% 25%;
+}
+.button-fatturazione{
+    display:flex;
+    padding-top: 30px;
+}
+.card{
+    display:flex;
+    justify-content:space-between ;
+   padding-right: 25%;
+
+}
+.card1{
+    border: 1px solid grey;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-inline: 20%;
+}
+.card2{
+    border: 1px solid grey;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   padding-inline: 20%;
+}
+.card3{
+    border: 1px solid grey   ;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-inline: 20%;
+}
+
+
