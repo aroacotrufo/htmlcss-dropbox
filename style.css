@@ -1,121 +1,139 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Open Sans;
-    
+
 }
-header{
+
+header {
 
     padding: 10px 0;
 }
 
-.text-grey{
+.text-grey {
     color: gray;
-    margin:20px;
+    margin: 20px;
 }
-.nav-container{
-   display: flex;
+
+.nav-container {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-  
+
 }
 
 a {
     text-decoration: none;
 }
-.menu-left{
-    display:flex;
+
+.menu-left {
+    display: flex;
     align-items: center;
 
 }
-.menu-right{
-    display:flex;
-   align-items: center;
-    
+
+.menu-right {
+    display: flex;
+    align-items: center;
+
 }
-.button{
+
+.button {
     background-color: blue;
-    color:white;
+    color: white;
     padding: 7px 0;
     border-radius: 10%;
-    
+
 }
-ul{
+
+ul {
     list-style-type: none;
 }
 
-.primo-section{
+.primo-section {
 
     background-color: #87B5C9;
     padding: 5% 20%;
-   
-   
+
+
 }
-.menu-section{
-    display:flex;
-    
+
+.menu-section {
+    display: flex;
+
 }
-.menu-left-section1{
-    display:flex;
-    flex-wrap:wrap;
+
+.menu-left-section1 {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 7px;
     margin-right: 150px;
     margin-top: 20px;
 }
 
-.menu-section-right{
-    display:flex;
+.menu-section-right {
+    display: flex;
 }
-.jumbo{
+
+.jumbo {
     width: 350px;
     height: auto;
-    
+
 }
-.titolo{
+
+.titolo {
     font-size: 100px;
 }
-.button-prova{
+
+.button {
     background-color: blue;
-     color:white;
+    color: white;
     padding-inline: 30px;
     border-radius: 10%;
-    margin-right: 200px;
+    font-size: 10px;
 
 }
-.secondo-section{
+
+.prezzi-section {
     margin: 5% 25%;
 }
-.button-fatturazione{
-    display:flex;
+
+.button-fatturazione {
+    display: flex;
     padding-top: 30px;
 }
-.card{
-    display:flex;
-    justify-content:space-between ;
-   padding-right: 25%;
+
+.card {
+    display: flex;
+    justify-content: space-between;
 
 }
-.card1{
+
+.singolo {
     border: 1px solid grey;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    padding-inline: 20%;
-}
-.card2{
-    border: 1px solid grey;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-   padding-inline: 20%;
-}
-.card3{
-    border: 1px solid grey   ;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-inline: 20%;
 }
 
+.team {
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 20%;
+}
 
+.azienda {
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 20%;
+}
+
+.border {
+    border: 1px solid grey;
+}
