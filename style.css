@@ -64,20 +64,15 @@ ul {
 
 }
 
-.menu-left-section1 {
 
-    font-size: 7px;
 
-}
-
-.menu-section-right {
+.img {
     display: flex;
+     
 }
-
-.jumbo {
+.jumbo{
     width: 350px;
     height: auto;
-
 }
 
 .titolo {
@@ -128,9 +123,7 @@ ul {
     padding-inline: 20%;
 }
 
-
-
-.text {
+.text-line{
     line-height: 30px;
     font-size: 10px;
 
@@ -146,3 +139,36 @@ ul {
     font-size: 10px;
     padding: 7px 0;
 }
+.button-trasparente{
+    border: 1px solid;
+    padding:10px;
+   
+}
+.img-text{
+    display:flex;
+    margin: 100px 0;
+    
+}
+.partner{
+width: 90%;
+    height: auto;
+}
+.text{
+    font-size: 10px;
+
+}
+h3{
+    margin: 30px 0;
+}
+p{
+    margin: 30px 0;
+}
+.card-small{
+    width: 30%;
+}
+.img-small{
+      width:  200px;
+   
+}
+
+
